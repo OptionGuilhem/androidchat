@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">tuto</string>
+    <string name="action_settings">Settings</string>
+    <string name="tabCreator">Creator</string>
+    <string name="tabList">List</string>
+    <string name="btnADD">ADD</string>
+    <string name="txtValidateADD"> has been added to your Contacts!</string>
+    <string name="txtErrorADD"> already exists.</string>
+    <string name="imageSelection">Select Contact Image</string>
+    <string name="longClickMenu">Contact Options</string>
+    <string name="callContact">Call Contact</string>
+    <string name="sendSMS">Send SMS</string>
+    <string name="editContact">Edit Contact</string>
+    <string name="deleteContact">Delete Contact</string>
+    <string name="btnUpdate">Update</string>
+    <string name="txtErrorPhone">No phone number for this contact!</string>
+    <string name="txtReceived">Received</string>
+    <string name="txtSent">Sent</string>
+    <string name="txtUnknown">Unknown</string>
+    <string name="contactCreator">Contact Creator</string>
+    <string name="contactName">Contact Name</string>
+    <string name="contactPhone">Phone Number</string>
+    <string name="contactEmail">Email</string>
+    <string name="contactAddress">Address</string>
+    <string name="txtAddContact">Add Contact</string>
+    <string name="txtMyContacts">My Contacts</string>
+    <string name="txtEnterMessage">Enter your message...</string>
+    <string name="txtSendSMS">Send SMS</string>
+    <string name="txtListContactName">Contact Name</string>
+    <string name="txtListContactPhone">Phone</string>
+    <string name="txtListContactMail">Email</string>
+    <string name="txtListContactAddress">Address</string>
+    <string name="toastSmsSent">SMS sent</string>
+    <string name="toastSmsFailed">SMS failed, please try again.</string>
+    <string name="color">Color</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="white">Black</string>
+
+</resources>

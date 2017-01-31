@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tuto</string>
+    <string name="action_settings">Options</string>
+    <string name="btnADD">Ajouter</string>
+    <string name="btnUpdate">MAJ</string>
+    <string name="callContact">Appeler</string>
+    <string name="contactAddress">Adresse</string>
+    <string name="contactCreator">Créateur de contacts</string>
+    <string name="contactEmail">Email</string>
+    <string name="contactName">Nom du contact</string>
+    <string name="contactPhone">Téléphone</string>
+    <string name="deleteContact">Supprimer</string>
+    <string name="editContact">Editer</string>
+    <string name="imageSelection">Choisir une image</string>
+    <string name="longClickMenu">Choisir</string>
+    <string name="sendSMS">Envoyer SMS</string>
+    <string name="tabCreator">Créateur</string>
+    <string name="tabList">Liste</string>
+    <string name="txtAddContact">Ajouter un contact</string>
+    <string name="txtEnterMessage">Entrez votre message...</string>
+    <string name="txtErrorADD">existe déjà</string>
+    <string name="txtErrorPhone">Pas de numéro pour ce contact.</string>
+    <string name="txtListContactAddress">Adresse</string>
+    <string name="txtListContactMail">Email</string>
+    <string name="txtListContactName">Nom</string>
+    <string name="txtListContactPhone">Numéro</string>
+    <string name="txtMyContacts">Mes Contacts</string>
+    <string name="txtReceived">Reçu</string>
+    <string name="txtSendSMS">Envoyer</string>
+    <string name="txtSent">Envoyé</string>
+    <string name="txtUnknown">Inconnu</string>
+    <string name="txtValidateADD">a été ajouté à vos contacts!</string>
+    <string name="toastSmsFailed">Echec, veuillez ressayer.</string>
+    <string name="toastSmsSent">SMS Envoyé</string>
+    <string name="blue">Bleue</string>
+    <string name="color">Couleur</string>
+    <string name="green">Vert</string>
+    <string name="red">Rouge</string>
+    <string name="white">Noir</string>
+</resources>

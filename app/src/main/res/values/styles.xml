@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="guilhemdefault" parent="AppTheme">
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+    <style name="guilhemblue" parent="AppTheme">
+        <item name="android:windowBackground">@color/blue</item>
+    </style>
+    <style name="guilhemred" parent="AppTheme">
+        <item name="android:windowBackground">@color/red</item>
+    </style>
+    <style name="guilhemgreen" parent="AppTheme">
+        <item name="android:windowBackground">@color/green</item>
+    </style>
+
+
+</resources>

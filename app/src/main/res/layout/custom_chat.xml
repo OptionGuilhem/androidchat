@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txtChatMsg"
+        android:layout_weight="0.25"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/txtChatDate"
+        android:layout_gravity="end"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/txtChatStatus"
+        android:layout_gravity="right"
+        android:layout_weight="0.07" />
+
+</LinearLayout>

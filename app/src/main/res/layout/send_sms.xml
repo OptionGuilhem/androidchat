@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    tools:context=".SendSMS">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textSize="20sp"
+            android:id="@+id/txtSMSName"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:text=""
+            android:id="@+id/txtSMSPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp">
+        </TextView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/list_chat"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.02"
+            android:layout_marginTop="15dp"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"/>
+
+        <EditText
+            android:id="@+id/txtSMSMessage"
+            android:hint="@string/txtEnterMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/txtSendSMS"
+            android:gravity="center"
+            android:layout_gravity="right">
+        </Button>
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:id="@+id/txtScroll">-->
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:scrollbars="horizontal" >-->
+                <!--<TableLayout-->
+                    <!--android:id="@+id/tblMain"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="fill_parent">-->
+                <!--</TableLayout>-->
+            <!--</HorizontalScrollView>-->
+        <!--</ScrollView>-->
+    </LinearLayout>
+</LinearLayout>
+
